@@ -1,0 +1,22 @@
+{
+    "ModelCardArn": "arn:aws:sagemaker:us-east-2:551110165849:model-card/bike-share-model-card-20241103230035",
+    "ModelCardName": "bike-share-model-card-20241103230035",
+    "ModelCardVersion": 1,
+    "Content": "{\"model_overview\": {\"model_description\": \"A model to predict bike sharing demand based on various features.\", \"model_creator\": \"Sagemaker Group\", \"model_artifact\": [\"s3://sagemaker-ftb-sagemaker-domain/bike_share_data/\"], \"algorithm_type\": \"Multiple Linear Regression\", \"problem_type\": \"Regression\", \"model_owner\": \"Fifth Third Bank\", \"model_name\": \"bikestuff\"}, \"intended_uses\": {\"purpose_of_model\": \"Predict bike sharing demand\", \"intended_uses\": \"City planners, bike sharing companies\", \"factors_affecting_model_efficiency\": \"Model may not perform well in extreme weather conditions\"}, \"business_details\": {\"business_problem\": \"Predicting bike sharing demand to optimize resource allocation\", \"business_stakeholders\": \"City planners, bike sharing companies\", \"line_of_business\": \"Urban planning and transportation\"}, \"training_details\": {\"training_observations\": \"Model trained on historical bike sharing data\", \"training_job_details\": {\"training_arn\": \"arn:aws:sagemaker:us-east-2:123456789012:training-job/bike-share-training-job\", \"training_datasets\": [\"s3://sagemaker-ftb-sagemaker-domain/bike_share_data/train/\"], \"training_environment\": {\"container_image\": [\"123456789012.dkr.ecr.us-east-2.amazonaws.com/sklearn:0.23-1\"]}}}, \"evaluation_details\": [{\"name\": \"Initial Evaluation\", \"evaluation_observation\": \"Model evaluated on test data\", \"evaluation_job_arn\": \"arn:aws:sagemaker:us-east-2:123456789012:evaluation-job/bike-share-evaluation-job\", \"datasets\": [\"s3://sagemaker-ftb-sagemaker-domain/bike_share_data/test/\"], \"metric_groups\": [{\"name\": \"Regression Metrics\", \"metric_data\": [{\"name\": \"MSE\", \"type\": \"number\", \"value\": 0.02}, {\"name\": \"Accuracy\", \"type\": \"number\", \"value\": 0.95}]}]}], \"additional_information\": {\"ethical_considerations\": \"Steps taken to mitigate bias in the model\", \"caveats_and_recommendations\": \"Model may not perform well in extreme weather conditions\"}}",
+    "ModelCardStatus": "Draft",
+    "CreationTime": "2024-11-03T23:00:36",
+    "CreatedBy": {},
+    "LastModifiedTime": "2024-11-03T23:00:36",
+    "LastModifiedBy": {},
+    "ResponseMetadata": {
+        "RequestId": "bc1e7e64-3f3e-494e-bd61-5df158aa5275",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "bc1e7e64-3f3e-494e-bd61-5df158aa5275",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "2353",
+            "date": "Sun, 03 Nov 2024 23:00:36 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}
