@@ -1,5 +1,5 @@
-# FTB-Sagemaker
-## AWS Sagemaker Deliverables for Fifth Third Bank
+# Sagemaker Work
+## AWS Sagemaker Deliverables for
 
 ## Project 1 - 09/25/24 Detailed Deliverables (Focus on Future MLOps)
 
